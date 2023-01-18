@@ -1,7 +1,7 @@
 ---
 layout: post
-title: SimCLR test
-date: 2023-07-15 19:00:00
+title: SimCLR params별 학습결과(수정중)
+date: 2023-01-18 19:00:00
 description: SimCLR모델의 parameter별 학습결과입니다.
 tags: formatting code
 categories: sample-posts
