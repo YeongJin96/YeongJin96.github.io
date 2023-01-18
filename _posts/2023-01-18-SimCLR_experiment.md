@@ -1,13 +1,11 @@
-```html
+---
 layout: post
 title: SimCLR의 파라미터별 학습결과 (수정중)
 date: 2023-07-15 19:00:00
 description: SimCLR모델의 parameter별 학습결과입니다.
 tags: formatting code
 categories: sample-posts
-```
-
-
+---
 
 <h1>SimCLR의 파라미터별 학습결과</h1>
 
