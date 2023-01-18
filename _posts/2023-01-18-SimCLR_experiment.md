@@ -63,7 +63,7 @@ Color_Jitter([
 
 ]) #해당 값들을 (1-0.8) ~ (1+0.8)의 범위를 적용확률 0.8로 augmentation
 
-**Resized&Crop** = 0.08~1.0의 비율중 랜덤하게 Crop한 후 0.75~1.3333의 비율로 너비와 높이를 줄이거나 늘린후 원본 이미지 size로 만듬
+**Resized&Crop** = 0.08 ~ 1.0의 비율중 랜덤하게 Crop한 후 0.75 ~ 1.3333의 비율로 너비와 높이를 줄이거나 늘린후 원본 이미지 size로 만듬
 
 **HorizontalFlip** = Random(0.5)으로 이미지를 Flip
 
