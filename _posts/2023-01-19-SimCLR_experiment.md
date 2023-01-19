@@ -87,6 +87,8 @@ Batch **64, 128, 256**에 나누어 진행했고, **LARS**와 **Adam** Optimizer
 
 
 
+
+
 #### Outcome
 
 | Epochs | Batch_size | Optimizer | loss | accuracy |
