@@ -13,20 +13,16 @@ SimCLR 모델을 Epochs와 Batch 그리고 Optimizer에 차이를 두고 학습�
 
 학습에 사용한 Parameters는 다음과 같습니다.
 
- <br/>
+<br/>
 
- <br/>
+<br/>
 
 <br/>
 
 
 ### Augmentation
-
-<br/>
-
-
 torchvision.transforms 라이브러리를 사용해 Augmentation 했고, 코드는 다음과 같습니다.
-
+<br/>
 ```python
 class TransformsSimCLR:
     """
@@ -89,21 +85,12 @@ Color_Jitter([
 
 
 해당 방법으로 데이터셋 이미지 1개를 각각 다른이미지로 Augmentation 후 학습.
-
 <br/>
-
 <br/>
-
 <br/>
-
-<br/>
-
 
 ### Model & Batch, Optimizer
-
 <br/>
-
-
 SimCLR 학습에 사용한 encoder모델은 **ResNet18**과 **ResNet50**을 사용했습니다.
 
 Batch **64, 128, 256**에 나누어 진행했고, **LARS**와 **Adam** Optimizer를 각각 적용했습니다.
@@ -114,7 +101,6 @@ Batch **64, 128, 256**에 나누어 진행했고, **LARS**와 **Adam** Optimizer
 
 <br/>
 
-<br/>
 
 
 ### Outcome
@@ -163,4 +149,4 @@ SimCLR_evaluate code: [Evaluate코드 링크](https://yeongjin96.github.io/blog/
 
 #### Reference
 
-[](https://github.com/Spijkervet/SimCLR)
+[https://github.com/Spijkervet/SimCLR](https://github.com/Spijkervet/SimCLR)
