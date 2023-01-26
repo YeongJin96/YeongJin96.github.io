@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SimCLR 학습결과
-date: 2023-01-18 15:09:00
+date: 2023-01-18 19:09:00
 description: SimCLR 모델을 Epochs와 Batch 그리고 Optimizer에 차이를 두고 학습한 결과입니다.
 tags: SimCLR
 categories: Experiment
