@@ -1,11 +1,13 @@
 ---
 layout: post
 title: SimCLR_train code
-date: 2023-01-26 19:09:00
+date: 2023-01-18 15:09:00
 description: SimCLR 모델을 학습할 때 사용한 코드입니다.
 tags: SimCLR
 categories: code
 ---
+
+SimCLR 학습 코드입니다.
 
 ```python
 import torch
