@@ -4,7 +4,7 @@ title: SimCLR_train code
 date: 2023-01-26 19:09:00
 description: SimCLR 모델을 학습할 때 사용한 코드입니다.
 tags: SimCLR
-categories: Experiment
+categories: code
 ---
 
 ```python
