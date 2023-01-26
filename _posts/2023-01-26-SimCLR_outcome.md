@@ -148,5 +148,4 @@ SimCLR_evaluate code: [Evaluate코드 링크](https://yeongjin96.github.io/blog/
 
 
 #### Reference
-
-[github/Spijkervet/SimCLR](https://github.com/Spijkervet/SimCLR)
+[https://github.com/Spijkervet/SimCLR](https://github.com/Spijkervet/SimCLR)
