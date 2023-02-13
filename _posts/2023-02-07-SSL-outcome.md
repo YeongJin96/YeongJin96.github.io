@@ -23,7 +23,6 @@ categories: Experimentd
 
 <details>
   <summary>5% 학습그래프는 여기를 눌러주세요.</summary>
-  <div markdown="1">
     
 
     ##### 5%
@@ -45,7 +44,6 @@ categories: Experimentd
     DownStream-Accuracy
 
     ![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Down_Acc.png)
-  </div>
 </details>
 
 25%
