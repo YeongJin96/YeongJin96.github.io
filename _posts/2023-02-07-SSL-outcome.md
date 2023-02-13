@@ -29,19 +29,19 @@ categories: Experimentd
 
 Pretext-Loss
 
-![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Pre_Loss.png)
+![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%_Pre_Loss.png)
 
 Pretext-Accuracy
 
-![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Pre_Acc.png)
+![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%_Pre_Acc.png)
 
 DownStream-Loss
 
-![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Down_Loss.png)
+![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%_Down_Loss.png)
 
 DownStream-Accuracy
 
-![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Down_Acc.png)
+![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%_Down_Acc.png)
   
 </details>
 
