@@ -21,27 +21,32 @@ categories: Experimentd
 
 ### Unsupervised Representation Learning by Predicting Image Rotations
 
+<details>
+  <summary>5% 학습그래프는 여기를 눌러주세요.</summary>
+  <div markdown="1">
+    
+
+    ##### 5%
+
+    Pretext-Loss
+
+    ![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Pre_Loss.png)
+
+    Pretext-Accuracy
 
 
-##### 5%
 
-Pretext-Loss
+    ![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Pre_Acc.png)
 
-![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Pre_Loss.png)
+    DownStream-Loss
 
-Pretext-Accuracy
+    ![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Down_Loss.png)
 
+    DownStream-Accuracy
 
-
-![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Pre_Acc.png)
-
-DownStream-Loss
-
-![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Down_Loss.png)
-
-DownStream-Accuracy
-
-![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Down_Acc.png)
+    ![](https://raw.githubusercontent.com/YeongJin96/YeongJin96.github.io/master/assets/img/5%25_Down_Acc.png)
+  </div>
+</details>
 
 25%
 
