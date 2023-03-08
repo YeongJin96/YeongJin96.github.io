@@ -15,7 +15,7 @@ categories: experiment
 
 훈련된 Pretrained model 뒤에 MLP레이어를 추가해 한번더 학습한 뒤 모델을 평가한 결과입니다.
 
-<a href="[https://yeongjin96.github.io/blog/2023/simCLR_50-_Eval/](https://yeongjin96.github.io/blog/2023/simCLR_50-_Eval/)">평가에 사용한 코드링크</a>
+<a href="https://yeongjin96.github.io/blog/2023/simCLR_50-_Eval/">평가에 사용한 코드 링크</a>
 <br>
 <br>
 
