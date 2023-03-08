@@ -47,7 +47,6 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_5%.png" title="SimCLR_5%_Loss" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_5%_lr.png" title="SimCLR_5%_lr" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -64,7 +63,6 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
     <div class="caption">
     ACC: Train(노랑) & Validation(보라)
     </div>
-    
     <div class="col-lg mt-2 mt-md-0">
         {% include figure.html path="assets/img/SimCLR/downstream/5%_loss.png" title="5%_loss.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
@@ -89,7 +87,6 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_25%.png" title="SimCLR_25%_Loss" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_25%_lr.png" title="SimCLR_25%_lr" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -106,7 +103,6 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
     <div class="caption">
     ACC: Train(노랑) & Validation(보라)
     </div>
-    
     <div class="col-lg mt-2 mt-md-0">
         {% include figure.html path="assets/img/SimCLR/downstream/25%_loss.png" title="25%_loss.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
@@ -131,7 +127,6 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_50%.png" title="SimCLR_50%_Loss" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_50%_lr.png" title="SimCLR_50%_lr" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -148,7 +143,6 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
     <div class="caption">
     ACC: Train(노랑) & Validation(보라)
     </div>
-    
     <div class="col-lg mt-2 mt-md-0">
         {% include figure.html path="assets/img/SimCLR/downstream/50%_loss.png" title="50%_loss.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
