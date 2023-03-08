@@ -15,7 +15,7 @@ categories: experiment
 
 훈련된 Pretrained model 뒤에 MLP레이어를 추가해 한번더 학습한 뒤 모델을 평가한 결과입니다.
 
-[평가에 사용한 코드 링크]: https://yeongjin96.github.io/blog/2023/simCLR_50-_Eval/
+<a href="[https://yeongjin96.github.io/blog/2023/simCLR_50-_Eval/](https://yeongjin96.github.io/blog/2023/simCLR_50-_Eval/)">평가에 사용한 코드링크</a>
 <br>
 <br>
 
@@ -82,7 +82,7 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
 <br>
 <br>
 ### 25%
-<br>
+
 ##### SimCLR pretrained
 <br>
 <div class="row">
@@ -122,7 +122,7 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
 <br>
 <br>
 ### 50%
-<br>
+
 ##### SimCLR pretrained
 <br>
 <div class="row">
