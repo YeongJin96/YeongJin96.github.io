@@ -61,19 +61,18 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
 <br>
 <div class="col">
     <div class="col-lg mt-2 mt-md-0">
-        {% include figure.html path="assets/img/SimCLR/downstream/5%_acc.png" title="5%_acc.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/SimCLR/downstream/mat_5%_acc.png" title="5%_acc.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="caption">
-    ACC: Train(노랑) & Validation(보라)
+    ACC: Train & Validation
     </div>
     <div class="col-lg mt-2 mt-md-0">
-        {% include figure.html path="assets/img/SimCLR/downstream/5%_loss.png" title="5%_loss.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/SimCLR/downstream/mat_5%_loss.png" title="5%_loss.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="caption">
-    Loss: Train(파랑) & Validation(분홍)
+    Loss: Train & Validation
     </div>
 </div>
-<br>
 <br>
 ###### Loss: 0.5545
 
@@ -100,21 +99,19 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
 <br>
 <div class="col">
     <div class="col-lg mt-2 mt-md-0">
-        {% include figure.html path="assets/img/SimCLR/downstream/25%_acc.png" title="25%_acc.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/SimCLR/downstream/mat_25%_acc.png" title="25%_acc.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="caption">
-    ACC: Train(노랑) & Validation(보라)
+    ACC: Train & Validation
     </div>
     <div class="col-lg mt-2 mt-md-0">
-        {% include figure.html path="assets/img/SimCLR/downstream/25%_loss.png" title="25%_loss.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/SimCLR/downstream/mat_25%_loss.png" title="25%_loss.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="caption">
-    Loss: Train(파랑) & Validation(분홍)
+    Loss: Train & Validation
     </div>
 </div>
 <br>
-<br>
-
 ###### Loss: 0.3569
 
 ###### Accuracy: 0.8480
@@ -140,21 +137,19 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
 <br>
 <div class="col">
     <div class="col-lg mt-2 mt-md-0">
-        {% include figure.html path="assets/img/SimCLR/downstream/50%_acc.png" title="50%_acc.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/SimCLR/downstream/mat_50%_acc.png" title="50%_acc.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="caption">
-    ACC: Train(노랑) & Validation(보라)
+    ACC: Train & Validation
     </div>
     <div class="col-lg mt-2 mt-md-0">
-        {% include figure.html path="assets/img/SimCLR/downstream/50%_loss.png" title="50%_loss.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/SimCLR/downstream/mat_50%_loss.png" title="50%_loss.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="caption">
-    Loss: Train(파랑) & Validation(분홍)
+    Loss: Train & Validation
     </div>
 </div>
 <br>
-<br>
-
 ###### Loss: 0.3602
 
 ###### Accuracy: 0.8526
