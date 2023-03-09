@@ -41,22 +41,20 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
 <br>
 <br>
 <br>
-### 5%
-
 ##### SimCLR pretrained
-<br>
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_5%.png" title="SimCLR_5%_Loss" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/SimCLR/pretrained/loss.png" title="Pretext_task_Loss" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_5%_lr.png" title="SimCLR_5%_lr" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_5%_lr.png" title="Pretext_task_lr" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <br>
 <br>
 <br>
-
+### 5%
+<br>
 ##### Linear Evaluate
 <br>
 <div class="col">
@@ -75,25 +73,11 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
 </div>
 <br>
 ###### Loss: 0.5545
-
 ###### Accuracy: 0.7559
 <br>
 <br>
 <br>
 ### 25%
-
-##### SimCLR pretrained
-<br>
-<div class="row">
-    <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_25%.png" title="SimCLR_25%_Loss" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_25%_lr.png" title="SimCLR_25%_lr" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<br>
-<br>
 <br>
 ##### Linear Evaluate
 <br>
@@ -113,26 +97,11 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
 </div>
 <br>
 ###### Loss: 0.3569
-
 ###### Accuracy: 0.8480
 <br>
 <br>
 <br>
 ### 50%
-
-##### SimCLR pretrained
-<br>
-<div class="row">
-    <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_50%.png" title="SimCLR_50%_Loss" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/SimCLR/pretrained/SimCLR_50%_lr.png.png" title="SimCLR_50%_lr" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<br>
-<br>
-
 ##### Linear Evaluate
 <br>
 <div class="col">
@@ -150,6 +119,5 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 �
     </div>
 </div>
 <br>
-###### Loss: 0.3602
-
-###### Accuracy: 0.8526
+###### Loss: 0.2767
+###### Accuracy: 0.8879
