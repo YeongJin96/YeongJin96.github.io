@@ -136,7 +136,9 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 Tr
 
 ###### Loss: 0.5545
 ###### Accuracy: 0.7559
+
 ---
+
 <br>
 <br>
 <br>
@@ -185,7 +187,9 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 Tr
 <br>
 ###### Loss: 0.3569
 ###### Accuracy: 0.8480
+
 ---
+
 <br>
 <br>
 <br>
