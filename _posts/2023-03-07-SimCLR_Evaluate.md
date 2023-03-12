@@ -89,8 +89,10 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 Tr
 </div>
 <br>
 <br>
-<br>
 
+---
+
+<br>
 ### 5%
 <br>
 
@@ -140,9 +142,6 @@ class는 총 3개이며, train셋과 validation셋은 각 비율로 나눠진 Tr
 ---
 
 <br>
-<br>
-<br>
-
 ### 25%
 <br>
 
