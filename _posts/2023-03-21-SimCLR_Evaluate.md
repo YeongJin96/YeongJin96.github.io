@@ -44,7 +44,7 @@ categories: experiment
 
 각 클래스별로 데이터 사이즈의 편차가 커서, 가장 작은 데이터사이즈의 클래스와 나머지 클래스들의 데이터 사이즈를 동일하게 사용하였습니다.
 
-| Resized Dataset             | Dataset | Test |
+| Reduce Dataset             | Dataset | Test |
 | --------------------------- | ------- | ---- |
 | Benign                      | 3079    | 1136 |
 | Atypical Ductal Hyperplasia | 3079    | 1876 |
