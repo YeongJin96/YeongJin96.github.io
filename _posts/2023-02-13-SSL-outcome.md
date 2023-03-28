@@ -443,11 +443,11 @@ Encoder인 ResNet50의 학습가중치를 고정하고(freeze) Downstream에서 
 
 SimCLR으로 학습한 결과입니다.
 
-1. ImageNet의 가중치를 가져와 보유하고있는 의료 데이터셋(유방암)으로 Pretext task를 진행하였습니다.
-2. ImageNet의 가중치 없이 유방암 패치가 아닌 신장 패치데이터(약 15만장)로 Pretext task후, 보유하고 있는 데이터로 mlp를 학습하였습니다.
-3. ImageNet의 가중치를 가져와 신장 패치데이터를 Pretext task후, 보유하고 있는 데이터(유방암)로 mlp를 학습하였습니다.
-4. 2와 같이 가중치 없이 신장 데이터로 Pretext task후, 학습된 가중치에 보유하고 있는 데이터셋(유방암)으로 한번 더 Pretext task를 진행한 뒤, 보유하고 있는 데이터로 mlp를 학습하였습니다.
-5. 3과 같이 ImageNet가중치를 가져와 신장데이터로 Ptrext task후, 보유하고 있는 데이터셋(유방암)으로 한번 더 Pretext task를 진행한 뒤, 보유하고 있는 데이터로 mlp를 학습하였습니다.
+1. ImageNet의 가중치를 가져와 보유하고있는 의료 데이터셋(유방암)으로 Pretext task를 진행하였습니다.<br>
+2. ImageNet의 가중치 없이 유방암 패치가 아닌 신장 패치데이터(약 15만장)로 Pretext task후, 보유하고 있는 데이터로 mlp를 학습하였습니다.<br>
+3. ImageNet의 가중치를 가져와 신장 패치데이터를 Pretext task후, 보유하고 있는 데이터(유방암)로 mlp를 학습하였습니다.<br>
+4. 2와 같이 가중치 없이 신장 데이터로 Pretext task후, 학습된 가중치에 보유하고 있는 데이터셋(유방암)으로 한번 더 Pretext task를 진행한 뒤, 보유하고 있는 데이터로 mlp를 학습하였습니다.<br>
+5. 3과 같이 ImageNet가중치를 가져와 신장데이터로 Ptrext task후, 보유하고 있는 데이터셋(유방암)으로 한번 더 Pretext task를 진행한 뒤, 보유하고 있는 데이터로 mlp를 학습하였습니다.<br>
 
 ##### Test (SimCLR)
 
