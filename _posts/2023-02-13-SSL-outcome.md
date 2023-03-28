@@ -399,9 +399,15 @@ Loss 0.3934 / Acc 90.80%
 
 </details>
 
-
+<br>
 
 ##### Test (Rotation & Rotation + Jitter)
+
+Encoder인 ResNet50의 학습가중치를 고정하지 않고(unfreeze) MLP와 함께 학습해 얻은 Rotation과 Rotation+Jitter의 결과입니다.
+
+Rotation의 경우 원본이미지를 0°, 90°, 180°, 270° 회전시킨 뒤, Pretext task에서 예측하도록 학습한 뒤, Downstream에서 label을 주고 학습하였습니다.
+
+Rotation+Jitter의 경우 Rotation Pretext task에 각 회전마다 다른 Jitter augmentation을 적용시켜 회전시킨 이미지를 예측하도록 학습한 뒤, Downstream에서 label을 주고 학습하였습니다.
 
 | Loss/Acc | Rotation        | Rotation+Jitter |
 | -------- | --------------- | --------------- |
@@ -417,6 +423,12 @@ lr_schedular를 사용하지 않고 고정 lr = 0.000005로 학습시
 | 25%      | 0.3759 / 90.91% | 0.4978 / 86.38% |
 | 50%      | 0.3128 / 87.78% | 0.3934 / 90.80% |
 
+<br>
+
+<br>
+
+Encoder인 ResNet50의 학습가중치를 고정하고(freeze) Downstream에서 MLP만 학습해 얻은 Rotation과 Rotation+Jitter의 결과입니다.
+
 ##### Test (Rotation & Rotation + Jitter)
 
 | Loss/Acc | Rotation (Encoder freeze) | Rotation+Jitter (Encoder freeze) |
@@ -425,12 +437,25 @@ lr_schedular를 사용하지 않고 고정 lr = 0.000005로 학습시
 | 25%      | 0.7235 / 67.99%           | 0.7713 / 64.60%                  |
 | 50%      | 1.0940 / 38.56%           | 0.7783 / 62.57%                  |
 
+<br>
+
+<br>
+
+SimCLR으로 학습한 결과입니다.
+
+1. ImageNet의 가중치를 가져와 보유하고있는 의료 데이터셋(유방암)으로 Pretext task를 진행하였습니다.
+2. ImageNet의 가중치 없이 유방암 패치가 아닌 신장 패치데이터(약 15만장)로 Pretext task후, 보유하고 있는 데이터로 mlp를 학습하였습니다.
+3. ImageNet의 가중치를 가져와 신장 패치데이터를 Pretext task후, 보유하고 있는 데이터(유방암)로 mlp를 학습하였습니다.
+4. 2와 같이 가중치 없이 신장 데이터로 Pretext task후, 학습된 가중치에 보유하고 있는 데이터셋(유방암)으로 한번 더 Pretext task를 진행한 뒤, 보유하고 있는 데이터로 mlp를 학습하였습니다.
+5. 3과 같이 ImageNet가중치를 가져와 신장데이터로 Ptrext task후, 보유하고 있는 데이터셋(유방암)으로 한번 더 Pretext task를 진행한 뒤, 보유하고 있는 데이터로 mlp를 학습하였습니다.
+
 ##### Test (SimCLR)
-| Loss/Acc | SimCLR (dataset + ImageNet) | SimCLR (kidneys dataset) | SimCLR (kidneys dataset + ImageNet) |
-| -------- | --------------------------- | ------------------------ | ----------------------------------- |
-| 5%       | 0.5545 / 75.59%             | 0.6162 / 73.62%          | 0.7177 / 69.64%                     |
-| 25%      | 0.3569 / 84.80%             | 0.5261 / 77.87%          | 0.5176 / 79.77%                     |
-| 50%      | 0.2767 / 88.79%             | 0.4094 / 83.55%          | 0.4538 / 82.79%                     |
+
+| Loss/Acc | 1. SimCLR (dataset + ImageNet) | 2. SimCLR (kidneys dataset) | 3. SimCLR (kidneys dataset + ImageNet) | 4. (kidneys+dataset) | 5. (kidneys+ImageNet+dataset) |
+| -------- | ------------------------------ | --------------------------- | -------------------------------------- | -------------------- | ----------------------------- |
+| 5%       | 0.5545 / 75.59%                | 0.6162 / 73.62%             | 0.7177 / 69.64%                        | 0.5309 / 76.97%      | 0.4881 / 80.65%               |
+| 25%      | 0.3569 / 84.80%                | 0.5261 / 77.87%             | 0.5176 / 79.77%                        | 0.3193 / 87.50%      | 0.2785 / 88.96%               |
+| 50%      | 0.2767 / 88.79%                | 0.4094 / 83.55%             | 0.4538 / 82.79%                        | 0.2686 / 89.46%      | 0.2229 / 91.50%               |
 
 
 #Supervised 학습시 
